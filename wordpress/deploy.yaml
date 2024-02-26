@@ -37,7 +37,7 @@ spec:
           volumeMounts:
             # name must match the volume name below
             - name: wordpressfiles
-              mountPath: /some
+              mountPath: /var/www/html/wp-content
       volumes:
         - name: wordpressfiles
           persistentVolumeClaim:
