@@ -22,7 +22,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: wordpress
-          image: cloudgenius/wordpress:6.4.3
+          image: cloudgenius/wordpress:6.6
           imagePullPolicy: Always
           ports:
             - containerPort: 80

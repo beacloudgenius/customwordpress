@@ -7,11 +7,11 @@ git clone https://github.com/beacloudgenius/customwordpress.git
 
 cd customwordpress/custom-image
 
-docker build -t cloudgenius/wordpress:6.4.3   .
+docker build -t cloudgenius/wordpress:6.6   .
 
 docker login
 
-docker push cloudgenius/wordpress:6.4.3
+docker push cloudgenius/wordpress:6.6
 
 cd ..
 ```
