@@ -1,4 +1,4 @@
-FROM wordpress:6.6-php8.1-apache
+FROM wordpress:6.7.2-php8.4-apache
 
 RUN apt-get update && \
 		apt-get install -y iputils-ping && \

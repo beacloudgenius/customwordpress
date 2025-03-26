@@ -22,7 +22,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: wordpress
-          image: cloudgenius/wordpress:6.6
+          image: cloudgenius/wordpress:6.7.2
           imagePullPolicy: Always
           env:
             - name: WORDPRESS_DB_HOST
